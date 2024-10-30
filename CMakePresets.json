@@ -18,17 +18,9 @@
       }
     },    
     {
-      "name": "android",
-      "generator": "Unix Makefiles",
-      "binaryDir": "${sourceDir}/build/linux",
-      "cacheVariables": {
-        "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
-      }
-    },
-    {
-      "name": "ios",
-      "generator": "Unix Makefiles",
-      "binaryDir": "${sourceDir}/build/linux",
+      "name": "windows",
+      "generator": "Visual Studio 17 2022",
+      "binaryDir": "${sourceDir}/build/windows",
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
       }

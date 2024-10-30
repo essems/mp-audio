@@ -1,10 +1,9 @@
 #include "mp-audio.h"
 #include <cmath>
 #include <cstring>
-// #include <algorithm>
 
 using namespace MPWAV;
-
+using namespace std;
 
 mpAudio::mpAudio(int32_t sampleRate)
 {

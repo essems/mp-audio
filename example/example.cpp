@@ -40,9 +40,9 @@ int main()
 
     PaStream *stream;
     err = Pa_OpenDefaultStream(&stream,
-                                1, // 입력 채널 수
-                                1, // 출력 채널 수
-                                paFloat32, // 샘플 포맷
+                                1, // 입력 채널 수.
+                                1, // 출력 채널 수.
+                                paFloat32, // 샘플 포맷.
                                 SAMPLE_RATE,
                                 FRAMES_PER_BUFFER,
                                 audioCallback,
