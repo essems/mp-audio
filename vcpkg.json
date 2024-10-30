@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "portaudio",
+    "boost-circular-buffer"
+  ]
+}
